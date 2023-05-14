@@ -72,10 +72,15 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create a variable called isStudent and set the boolean value to true.
+// Create a variable called age and set it to the number 34.
+// Create a variable called zip and set it to the number 55407.
+// Check to if both the variable isStudent is equal to true and also if the variable zip is greater than 80000. If both
+// are true then console.log 'You're a student on the West Coast!'. Zip is not greater than 80000 so console.log does not run.
+// Check if the variable isStudent is false or if the variable age is less than 30.  If either of these are true, then console.log 'What are your hobbies?'.  Neither
+// are true so console.log does not run.
+// Check if variable isStudent is true.  It is, so console.log will run 'Welcome to Prime'
+// If none of the above conditionals had been true then console.log would have run 'How about the weather?'.
 
 //CODE
 /*
