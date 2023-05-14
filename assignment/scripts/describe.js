@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Create a variable called name and set it to the string value 'Dane'.
+// Create a conditional to check if name is Mary, if it is we console.log 'Hi, Mary!'.  If name is not Mary,
+// then we console.log 'How do you do?'.
 //
 
 //CODE
@@ -45,9 +45,8 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+//
+//
 //
 
 //CODE
