@@ -154,9 +154,11 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+//FIX - Asks for two variables - Change const to let.
 let temp = 40;
 const time = 4;
 
+// FIX - Should ask if both conditionals are true, use && in place of ||.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
