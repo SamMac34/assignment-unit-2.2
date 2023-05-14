@@ -143,7 +143,7 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-// FIX - Missing second line of code, need to add colorTwo = 'purple';
+// FIX - Missing second line of code, need to add code: colorTwo = 'purple';
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -154,11 +154,10 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
-//FIX - Asks for two variables - Change const to let.
 let temp = 40;
 const time = 4;
 
-// FIX - Should ask if both conditionals are true, use && in place of ||.
+// FIX - Should ask if both parts of conditional are true, use && in place of ||.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -172,6 +171,9 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//FIX - Conditional is written backwards.  Should be if(age >= minAge).
+//FIX - Console.logs for if/else are reversed.  They should be switched.
+//FIX - Else conditional should start on a new line after close-curly-bracket.
 if(minAge <= age) {
   console.log('no entry');
 } else {
