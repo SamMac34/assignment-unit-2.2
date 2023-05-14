@@ -27,8 +27,8 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // Create a variable called name and set it to the string value 'Dane'.
-// We check if the variable name is the string 'Mary', if it is we console.log 'Hi, Mary!'. If the 
-// variable name is not Mary, then we console.log 'How do you do?'.
+// We check if the variable name is the 'Mary', if it is we console.log 'Hi, Mary!'. If the 
+// variable name is not Mary, which it isn't, then we console.log 'How do you do?'.
 // 
 
 //CODE
@@ -50,7 +50,7 @@ if (name === 'Mary') {
 // We check if code is the number 123. Code is the number 123 so the value of secret will be set to super and the value of code will be 
 // set to (code * 2).  Code is now set to the number 246.
 // Check if code is greater than 250.  Code is less than 250 so secret will not be set to 'duper'.
-// console.log(secret) will be 'super'
+// Console.log(secret) will be 'super'
 
 //CODE
 /*
@@ -75,12 +75,12 @@ console.log(secret)
 // Create a variable called isStudent and set the boolean value to true.
 // Create a variable called age and set it to the number 34.
 // Create a variable called zip and set it to the number 55407.
-// Check to if both the variable isStudent is equal to true and also if the variable zip is greater than 80000. If both
-// are true then console.log 'You're a student on the West Coast!'. Zip is not greater than 80000 so console.log does not run.
+// Check if both the variable isStudent is equal to true and also if the variable zip is greater than 80000. If both
+// are true then console.log 'You're a student on the West Coast!'. Zip is not greater than 80000 so we move to the next statement.
 // Check if the variable isStudent is false or if the variable age is less than 30.  If either of these are true, then console.log 'What are your hobbies?'.  Neither
-// are true so console.log does not run.
+// are true so we move to the next statement.
 // Check if variable isStudent is true.  It is, so console.log will run 'Welcome to Prime'
-// If none of the above conditionals had been true then console.log would have run 'How about the weather?'.
+// If none of the above conditionals had been true, then console.log would have run 'How about the weather?'.
 
 //CODE
 /*
@@ -157,7 +157,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-// FIX - Should ask if both parts of conditional are true, use && in place of ||.
+// FIX - Asks if either part of conditional is true.  Should ask if both parts of conditional are true, use && in place of ||.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -172,7 +172,7 @@ let age = 21;
 const minAge = 21;
 
 //FIX - Conditional is written backwards.  Should be if(age >= minAge).
-//FIX - Code blocks for if/else are reversed.  They should be switched.
+//FIX - Code blocks for if/else are reversed.  'no entry' and 'entry' should be switched.
 if(minAge <= age) {
   console.log('no entry');
 } else {
