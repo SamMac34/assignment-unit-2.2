@@ -143,6 +143,7 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - Missing second line of code, need to add colorTwo = 'purple';
 if (mix === true) {
   colorOne = 'purple';
 }
