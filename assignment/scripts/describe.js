@@ -172,8 +172,7 @@ let age = 21;
 const minAge = 21;
 
 //FIX - Conditional is written backwards.  Should be if(age >= minAge).
-//FIX - Console.logs for if/else are reversed.  They should be switched.
-//FIX - Else conditional should start on a new line after close-curly-bracket.
+//FIX - Code blocks for if/else are reversed.  They should be switched.
 if(minAge <= age) {
   console.log('no entry');
 } else {
