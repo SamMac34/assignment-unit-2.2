@@ -27,9 +27,9 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // Create a variable called name and set it to the string value 'Dane'.
-// Create a conditional to check if name is Mary, if it is we console.log 'Hi, Mary!'.  If name is not Mary,
-// then we console.log 'How do you do?'.
-//
+// We check if the variable name is the string 'Mary', if it is we console.log 'Hi, Mary!'. If the 
+// variable name is not Mary, then we console.log 'How do you do?'.
+// 
 
 //CODE
 /*
@@ -45,9 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
+// Create a variable called secret.
+// Create a variable called code and set it to 123 as a number.
+// We check if code is the number 123. Code is the number 123 so the value of secret will be set to super and the value of code will be 
+// set to (code * 2).  Code is now set to the number 246.
+// Check if code is greater than 250.  Code is less than 250 so secret will not be set to 'duper'.
+// console.log(secret) will be 'super'
 
 //CODE
 /*
